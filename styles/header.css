@@ -1,4 +1,4 @@
-.cabeçalho__menu-hamburguer {
+.cabecalho__menu-hamburguer {
     width: 24px;
     height: 24px;
     display: inline-block;
@@ -7,7 +7,7 @@
     background-position: center;
 }
 
-.cabeçalho {
+.cabecalho {
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
@@ -58,9 +58,11 @@
 .container__botao {
     display: none;
 }
-.container__texto{
+
+.container__texto {
     display: none;
 }
+
 @media screen and(min-width: 1024px) {
 
     .container_titulo,
@@ -70,10 +72,13 @@
         font-size: 30px;
     }
 
-    .container__titulo(font-weight: 400px;
+    .container__titulo {
+        font-weight: 400px;
         display: block;
 
-    ) .container__titulo-negrito {
+    }
+
+    .container__titulo-negrito {
         font-weight: 700;
     }
 
